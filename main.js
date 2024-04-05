@@ -36,9 +36,6 @@ const calculator = document.querySelector(".calculator");
 
 calculator.addEventListener("click", function (event) {
   const element = event.target;
-  //   console.log("previousNumber", previousNumber);
-  //   console.log("operator", operator);
-  //   console.log("currentNumber", currentNumber);
   if (element.matches("button")) {
     addNumber(element);
     addDot(element);

@@ -8,6 +8,7 @@
     "multiplier _4 _5 _6 cleaner"
     "subtracter _7 _8 _9 equaler"
     "adder _0 _0 dot equaler";
+    max-width: 250px;
 }
 
 .calculator__screen {
