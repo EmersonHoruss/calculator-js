@@ -1,0 +1,87 @@
+.calculator {
+  display: grid;
+  grid-template-columns: 5;
+  grid-template-rows: 5;
+  grid-template-areas:
+    "_screen _screen _screen _screen _screen"
+    "divisor _1 _2 _3 eraser"
+    "multiplier _4 _5 _6 cleaner"
+    "subtracter _7 _8 _9 equaler"
+    "adder _0 _0 dot equaler";
+}
+
+.calculator__screen {
+  grid-area: _screen;
+}
+
+.calculator__divisor {
+  grid-area: divisor;
+}
+
+.calculator__1 {
+  grid-area: _1;
+}
+
+.calculator__2 {
+  grid-area: _2;
+}
+
+.calculator__3 {
+  grid-area: _3;
+}
+
+.calculator__eraser {
+  grid-area: eraser;
+}
+
+.calculator__multiplier {
+  grid-area: multiplier;
+}
+
+.calculator__4 {
+  grid-area: _4;
+}
+
+.calculator__5 {
+  grid-area: _5;
+}
+
+.calculator__6 {
+  grid-area: _6;
+}
+
+.calculator__cleaner {
+  grid-area: cleaner;
+}
+
+.calculator__subtracter {
+  grid-area: subtracter;
+}
+
+.calculator__7 {
+  grid-area: _7;
+}
+
+.calculator__8 {
+  grid-area: _8;
+}
+
+.calculator__9 {
+  grid-area: _9;
+}
+
+.calculator__equaler {
+  grid-area: equaler;
+}
+
+.calculator__adder {
+  grid-area: adder;
+}
+
+.calculator__0 {
+  grid-area: _0;
+}
+
+.calculator__dot {
+  grid-area: dot;
+}
